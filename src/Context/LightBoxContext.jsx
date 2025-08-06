@@ -61,7 +61,7 @@ const projects = [
     ],
   },
   {
-    cat: "TAILWIND CSS",
+    cat: "TAILWIND",
     data: [
       {
         img: Tailwind1,
@@ -81,7 +81,7 @@ const projects = [
     ],
   },
   {
-    cat: "REACT JS",
+    cat: "REACT",
     data: [
       {
         img: React1,

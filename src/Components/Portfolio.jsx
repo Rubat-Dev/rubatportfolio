@@ -8,7 +8,7 @@ const Portfolio = () => {
 
   const {projects} = useAppContext();
   const [active, setActive] = useState("ALL");
-  const filterBtns = ["ALL", "HTML/CSS", "BOOTSTRAP", "TAILWIND", "REACT JS"];
+  const filterBtns = ["ALL", "HTML/CSS", "BOOTSTRAP", "TAILWIND", "REACT"];
 
   // const fun = (p) => {
   //   let newArr = p.data.map((item, idx) => ({
