@@ -3,6 +3,7 @@ import { useGSAP} from "@gsap/react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import React from "react";
+import profilePic from '../assets/rubi.jpeg';
 const About = () => {
   useGSAP(() => {
     // Animate elements with ScrollTrigger
@@ -99,7 +100,7 @@ const About = () => {
     <Flex wrap={'wrap'} justifyContent={{base:"center"}} rowGap={10} columnGap={{lg:"10vw"}}>
       <VStack  className="left1" width={{base:"85%",md:'100%', lg:"50%",xl:"45%"}} wrap={'wrap'} align={'start'}>
         <HStack alignItems={'start'} wrap={{base:'wrap',md:"nowrap"}}>
-          <Image  src="https://plus.unsplash.com/premium_photo-1670282393309-70fd7f8eb1ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2lybHxlbnwwfHwwfHx8MA%3D%3D" objectFit={'cover'} w={{base:'full',sm:300}} mx={'auto'} h={350} objectPosition={'center'}/>
+          <Image  src={profilePic} objectFit={'cover'} w={{base:'full',sm:300}} mx={'auto'} h={400} objectPosition={'top'}/>
           <VStack gap={5}>
             {profile.map((item, key) => (
               <HStack justify={'start'} key={key} w={'100%'}>

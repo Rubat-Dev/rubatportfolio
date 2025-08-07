@@ -66,17 +66,17 @@ const projects = [
       {
         img: Tailwind1,
         desc: "Lorem ipsum, dolor sit amet consectetur",
-        webUrl: "https://rubat-dev.github.io/FlowerShop"
+        webUrl: "https://rubat-dev.github.io/EducetionM4"
       },
       {
         img: Tailwind2,
         desc: "Lorem ipsum, dolor sit amet consectetur",
-        webUrl: "https://rubat-dev.github.io/FlowerShop"
+        webUrl: " https://rubat-dev.github.io/EducetionM4"
       },
       {
         img: Tailwind3,
         desc: "Lorem ipsum, dolor sit amet consectetur",
-        webUrl: "https://rubat-dev.github.io/FlowerShop"
+        webUrl: " https://rubat-dev.github.io/EducetionM4"
       },
     ],
   },
