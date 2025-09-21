@@ -1,21 +1,30 @@
 import { createContext, useContext, useState } from "react";
 
 // Import all images
-import FlowerShop1 from "../assets/web-ss/FlowerShop1.png"; 
-import FlowerShop2 from "../assets/web-ss/FlowerShop2.png";
-import FlowerShop3 from "../assets/web-ss/FlowerShop3.png";
+import FlowerShop from "../assets/web-ss/FlowerShop.png"; 
+import productCards from "../assets/web-ss/productCards.png";
+import RentalCar from "../assets/web-ss/RentalCar.png";
+import BlogPage from "../assets/web-ss/BlogPage.png";
+import DeshBoard from "../assets/web-ss/DeshBoard.png";
+import QuizMasterPro from "../assets/web-ss/QuizMasterPro.png";
 
-import Foodies1 from "../assets/web-ss/Foodies1.png";
-import Foodies2 from "../assets/web-ss/Foodies2.png";
-import Foodies3 from "../assets/web-ss/Foodies3.png";
+import Foodies from "../assets/web-ss/Foodies.png";
+import DemoPortfolio from "../assets/web-ss/DemoPortfolio.png";
+import bootstrapWeb from "../assets/web-ss/bootstrapWeb.png";
 
-import Tailwind1 from "../assets/web-ss/Tailwind-web1.png";
-import Tailwind2 from "../assets/web-ss/Tailwind-web2.png";
-import Tailwind3 from "../assets/web-ss/Tailwind-web3.png";
+import EducationWeb from "../assets/web-ss/EducationWeb.png";
+import coreTechDemoWeb from "../assets/web-ss/coreTechDemoWeb.png";
+import TravelingWeb from "../assets/web-ss/TravelingWeb.png";
 
-import React1 from "../assets/web-ss/react 1.png";
-import React2 from "../assets/web-ss/react 2.png";
-import React3 from "../assets/web-ss/react 3.png";
+import TechFlow from "../assets/web-ss/TechFlow.png";
+import coreTechOfficialWeb from "../assets/web-ss/coreTechOfficialWeb.png";
+import EcommersWeb from "../assets/web-ss/EcommersWeb.png";
+import movieApp from "../assets/web-ss/movieApp.png";
+import filterableGelry from "../assets/web-ss/filterableGelry.png";
+import TodoApp from "../assets/web-ss/TodoApp.png";
+
+import PhotoEditor from "../assets/web-ss/PhotoEditor.png";
+import MyPortfolio from "../assets/web-ss/MyPortfolio.png";
 
 const AppContext = createContext();
 
@@ -24,19 +33,34 @@ const projects = [
     cat: "HTML/CSS",
     data: [
       {
-        img: FlowerShop1,
+        img: FlowerShop,
         desc: "This is flower website creating with html/css & also responsive",
         webUrl: "https://rubat-dev.github.io/FlowerShop"
       },
       {
-        img: FlowerShop2,
-        desc: "Lorem ipsum, dolor sit amet consectetur",
-        webUrl: "https://rubat-dev.github.io/FlowerShop"
+        img: DeshBoard,
+        desc: "This is a coreTech Dashboard designing with html/css",
+        webUrl: "https://rubat-dev.github.io/internship-task-7/"
       },
       {
-        img: FlowerShop3,
-        desc: "Lorem ipsum, dolor sit amet consectetur",
-        webUrl: "https://rubat-dev.github.io/FlowerShop"
+        img: productCards,
+        desc: "This is products cards design with html/css only",
+        webUrl: "https://rubat-dev.github.io/Frontend-Task3-RubatShaikh/"
+      },
+      {
+        img: BlogPage,
+        desc: "This is a Blog Page designing only with html/css",
+        webUrl: "https://rubat-dev.github.io/internship-task-6/"
+      },
+      {
+        img: QuizMasterPro,
+        desc: "This is a Quiz MasterPro Game designing with html/css",
+        webUrl: "https://rubat-dev.github.io/internship-task-8/"
+      },
+      {
+        img: RentalCar,
+        desc: "This is a Rental car website designing only with html/css",
+        webUrl: "https://rubat-dev.github.io/internship-task-4/"
       },
     ],
   },
@@ -44,19 +68,19 @@ const projects = [
     cat: "BOOTSTRAP",
     data: [
       {
-        img: Foodies1,
-        desc: "Lorem ipsum, dolor sit amet consectetur",
+        img: Foodies,
+        desc: "This is foodie website design with bootstrap",
         webUrl: "https://rubat-dev.github.io/foddie"
       },
       {
-        img: Foodies2,
-        desc: "Lorem ipsum, dolor sit amet consectetur",
-        webUrl: "https://rubat-dev.github.io/FlowerShop"
+        img: DemoPortfolio,
+        desc: "This is demo Portfolio website designing with html/css",
+        webUrl: "https://rubat-dev.github.io/internship-task-2/"
       },
       {
-        img: Foodies3,
-        desc: "Lorem ipsum, dolor sit amet consectetur",
-        webUrl: "https://rubat-dev.github.io/FlowerShop"
+        img: bootstrapWeb,
+        desc: "This is startup website making with bootstrap",
+        webUrl: " https://rubat-dev.github.io/BootstrapWebPractice/"
       },
     ],
   },
@@ -64,39 +88,69 @@ const projects = [
     cat: "TAILWIND",
     data: [
       {
-        img: Tailwind1,
-        desc: "Lorem ipsum, dolor sit amet consectetur",
+        img: EducationWeb,
+        desc: "This is Education Website design with TailwindCSS",
         webUrl: "https://rubat-dev.github.io/EducetionM4"
       },
       {
-        img: Tailwind2,
-        desc: "Lorem ipsum, dolor sit amet consectetur",
-        webUrl: " https://rubat-dev.github.io/EducetionM4"
+        img: coreTechDemoWeb,
+        desc: "This is coreTech Demo website design with TailwindCSS",
+        webUrl: "https://rubat-dev.github.io/web-internship-task-5/"
       },
       {
-        img: Tailwind3,
-        desc: "Lorem ipsum, dolor sit amet consectetur",
-        webUrl: " https://rubat-dev.github.io/EducetionM4"
+        img: TravelingWeb,
+        desc: "This is a Traveling website design with TailwindCSS",
+        webUrl: "https://rubat-dev.github.io/internship-task-9/"
       },
     ],
   },
   {
-    cat: "REACT",
+    cat: "React+TailwindCSS",
     data: [
       {
-        img: React1,
-        desc: "Lorem ipsum, dolor sit amet consectetur",
-        webUrl: "https://rubat-dev.github.io/FlowerShop"
+        img: TechFlow,
+        desc: "This is TechFlow website design with React",
+        webUrl: "https://rubat-dev.github.io/internship-task-10/"
       },
       {
-        img: React2,
-        desc: "Lorem ipsum, dolor sit amet consectetur",
-        webUrl: "https://rubat-dev.github.io/FlowerShop"
+        img: coreTechOfficialWeb,
+        desc: "this is coreTech official website clone with React",
+        webUrl: "https://rubat-dev.github.io/coreTech/"
       },
       {
-        img: React3,
-        desc: "Lorem ipsum, dolor sit amet consectetur",
-        webUrl: "https://rubat-dev.github.io/FlowerShop"
+        img: EcommersWeb,
+        desc: "This is Ecommers website design with React",
+        webUrl: "https://rubat-dev.github.io/project2/"
+      },
+      {
+        img: movieApp,
+        desc: "This is Movie App design with React",
+        webUrl: "https://rubat-dev.github.io/final-project/"
+      },
+      {
+        img: filterableGelry,
+        desc: "This is a Filterable Gelry build with React & TailwindCSS",
+        webUrl: "https://rubat-dev.github.io/FilterableGelry/"
+      },
+      {
+        img: TodoApp,
+        desc: "This is a TodoApp to add your Goals build with React & TailwindCSS",
+        webUrl: "https://rubat-dev.github.io/TodoApp/"
+      },
+    ],
+  },
+  {
+    cat: "React+ChakraUI",
+    data: [
+      {
+        img: PhotoEditor,
+        desc: "This is a Amazing PhotoEditor build with React & ChakraUI",
+        webUrl: "https://rubat-dev.github.io/PhotoEditor/"
+      },
+      {
+        img: MyPortfolio,
+        desc: "My Official portfolio build with React & ChakraUI",
+        webUrl: "http://localhost:5174/rubatportfolio/"
       },
     ],
   },

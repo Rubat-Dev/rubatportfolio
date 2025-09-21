@@ -11,7 +11,7 @@ const Resume = () => {
           name="Resume"
           desc="Committed to delivering impactful digital experiences with skills in React, GSAP animations, and responsive design"
         />
-        <Flex direction={{ base: "column", lg: "row" }} align={"center"}>
+        <Flex direction={{ base: "column", lg: "row" }} align={"start"}>
           <VStack align={"start"} py={20} gap={0} w={{ lg: "50%" }}>
             <Heading fontSize={{ base: 20, md: 28 }}>Education</Heading>
             <VerticleContent>
@@ -75,7 +75,7 @@ const Resume = () => {
             </VerticleContent>
           </VStack>
           {/* right div */}
-          <VStack align={"start"} w={{ lg: "50%" }} gap={0}>
+          <VStack align={"start"} py={20} w={{ lg: "50%" }} gap={0}>
             <Heading fontSize={{ base: 20, md: 28 }}>
               Professional Experience
             </Heading>

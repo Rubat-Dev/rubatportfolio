@@ -2,9 +2,7 @@ import { Box, Flex, Image, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 import { HiMagnifyingGlassPlus } from "react-icons/hi2";
 import { GoPaperclip } from "react-icons/go";
-import { useAppContext } from '../Context/LightBoxContext';
 const PortfolioCards = ({name,img,desc,webUrl,index,activeCat}) => { 
-  const {openLightBox} = useAppContext();
   const cardCat = name.split(" ")[0];
   const condition = cardCat == activeCat || activeCat == "ALL";
   return (
@@ -25,7 +23,6 @@ const PortfolioCards = ({name,img,desc,webUrl,index,activeCat}) => {
             <Flex>
             <Text fontSize={'16px'} color={'gray.500'}>{desc}</Text>
             <Flex pt={2} fontSize={'19px'} color={'gray.500'}>
-              <HiMagnifyingGlassPlus cursor={'pointer'} onClick={()=>openLightBox(cardCat,index)}  />
              <a href={webUrl} target='_blank' >
               <GoPaperclip/>
              </a>

@@ -8,17 +8,7 @@ const Portfolio = () => {
 
   const {projects} = useAppContext();
   const [active, setActive] = useState("ALL");
-  const filterBtns = ["ALL", "HTML/CSS", "BOOTSTRAP", "TAILWIND", "REACT"];
-
-  // const fun = (p) => {
-  //   let newArr = p.data.map((item, idx) => ({
-  //     ...item,
-  //     name: `${p.cat} ${idx + 1}`,
-  //   }));
-  //   return newArr;
-  // };
-
-  // const arr2 = projects.flatMap((project) => fun(project));
+  const filterBtns = ["ALL", "HTML/CSS", "BOOTSTRAP", "TAILWIND","React+TailwindCSS","React+ChakraUI"];
 
   const arr2 = projects.flatMap(project=>project.data.map((item,i)=>({...item,name:`${project.cat} ${i+1}`,index:i})));
 

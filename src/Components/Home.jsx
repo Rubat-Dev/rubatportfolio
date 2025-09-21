@@ -39,7 +39,7 @@ useGSAP(()=>{
         backgroundPosition={{base:"center",md:"0px -30px",lg:"0px -90px"}}
       >
         <VStack className="animate">
-        <Heading fontSize={"5vw"}>I am Rubat Shaikh</Heading>
+        <Heading fontSize={"5vw"}>Hi, I'm Rubat Shaikh</Heading>
         <Heading fontSize={{base:"16px",md:"28px"}}>
           {text}
           <Cursor />
