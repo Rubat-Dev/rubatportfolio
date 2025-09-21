@@ -15,7 +15,7 @@ const Portfolio = () => {
 
   return (
     <>
-      <VStack w={"90vw"} mx={"auto"} mt={10}>
+      <VStack w={"90vw"} mx={"auto"} mt={10} id="portfolio">
         <Head
           name="Portfolio"
           desc="Explore a showcase of creativity and craftsmanship, where each project tells a story of innovation and skill"

@@ -45,7 +45,7 @@ const serviceCards = [
 const Services = () => {
   return (
     <>
-      <VStack className="animate" w={"90vw"} mx={"auto"}>
+      <VStack className="animate" w={"90vw"} mx={"auto"} id="services">
         <Head
           name="Services"
           desc="Empowering your digital presence with modern, interactive, and visually engaging solutions tailored to your needs"

@@ -28,3 +28,7 @@
   transform: scale(1);
   position: relative;
 }
+
+html {
+  scroll-behavior: smooth;
+}

@@ -26,23 +26,23 @@ const Navbar = () => {
   const [isopen, setIsopen] = useState(false);
   let links = [
     {
-      path: "",
+      path: "#",
       name: "Home",
     },
     {
-      path: "",
+      path: "#about",
       name: "About",
     },
     {
-      path: "",
+      path: "#services",
       name: "Services",
     },
     {
-      path: "",
+      path: "#portfolio",
       name: "Portfolio",
     },
     {
-      path: "",
+      path: "#contact",
       name: "Contact",
     },
   ];
@@ -87,7 +87,7 @@ const Navbar = () => {
           transition={"all .5s"}
         >
           {links.map((item, index) => (
-            <Link key={index} mx={{ base: 4, md: 0 }} href={item.href}>
+            <Link key={index} mx={{ base: 4, md: 0 }} href={item.path}>
               {item.name}
             </Link>
           ))}

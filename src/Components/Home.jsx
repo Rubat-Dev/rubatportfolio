@@ -29,6 +29,7 @@ useGSAP(()=>{
   return (
     <>
       <VStack
+      id="home"
         h={{base:"50vh",sm:"88vh"}}
         bg={"black"}
         color={"white"}
