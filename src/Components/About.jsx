@@ -165,9 +165,9 @@ const About = () => {
 
           <Grid
             templateColumns={{
-              base: "repeat(1, 1fr)",
-              sm: "repeat(2, 1fr)",
-              md: "repeat(3, 1fr)",
+              // sm: "repeat(1, 1fr)",
+              md: "repeat(2, 1fr)",
+              lg: "repeat(3, 1fr)",
             }}
             gap={8}
             justifyItems="center"
@@ -178,7 +178,8 @@ const About = () => {
                 className="skill-card"
                 w="90%"
                 boxShadow={"lg"}
-                bg="gray.200"
+                bg="gray.800"
+                color="white"
                 backdropFilter="blur(10px)"
                 border="1px solid rgba(255,255,255,0.2)"
                 borderRadius="xl"

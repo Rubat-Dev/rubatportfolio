@@ -21,11 +21,11 @@ const Portfolio = () => {
           desc="Explore a showcase of creativity and craftsmanship, where each project tells a story of innovation and skill"
         />
       </VStack>
-      <Flex justify={"center"} mt={10} mx={2}>
+      <Flex justify={"center"} flexWrap={"wrap"} mt={10} mx={2}>
         {filterBtns.map((item, idx) => (
           <Button
             key={idx}
-            fontSize={{base:"13px",md:"17px"}}
+            fontSize={{base:"14px",md:"17px"}}
             fontWeight={"bold"}
             bg={"transparent"}
             color={active == item ? "blue.500" : ""}
